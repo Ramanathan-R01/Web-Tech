@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+article{
+    height: 100vh;
+    width: 100vw;
+    
+    background-image: url('https://cdn.pixabay.com/photo/2025/01/03/00/02/ai-generated-9306969_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: imageSlide 20s ease-in-out infinite;
+}
+@keyframes imageSlide{
+    0%,100%{
+        background-image: url('https://cdn.pixabay.com/photo/2025/01/03/00/02/ai-generated-9306969_640.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    25%{
+        background-image: url('https://cdn.pixabay.com/photo/2019/01/18/20/08/heart-3940561_640.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    50%{
+        background-image: url('https://cdn.pixabay.com/photo/2022/12/16/07/23/heart-7659062_640.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    75%{
+        background-image: url('https://cdn.pixabay.com/photo/2022/03/10/10/12/pair-7059539_640.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
